@@ -46,6 +46,7 @@ node okf/sync-okf.mjs --check   # report drift, change nothing
 | `greasyfork-plus-userscript` | [repo](https://github.com/chirag127/greasyfork-plus-userscript) | ⚡ One read-only GreasyFork enhancer |
 | `metered-paywall-reset-userscript` | [repo](https://github.com/chirag127/metered-paywall-reset-userscript) | 🔓 Read a metered article from JSON-LD / AMP / archive + reset the meter |
 | `coupon-stack-userscript` | [repo](https://github.com/chirag127/coupon-stack-userscript) | 🎯 Promo/coupon/referral autofill + capped sweep + pair stacking |
+| `region-select-userscript` | [repo](https://github.com/chirag127/region-select-userscript) | 🌍 Region cookie override + IP-lock "you need a proxy" notice |
 | `userscript-install-guide` | [repo](https://github.com/chirag127/userscript-install-guide) | 🧭 Canonical install guide, linked by every script |
 
 ## Conventions
