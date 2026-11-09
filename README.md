@@ -68,18 +68,16 @@ Part of the [userscript collection](https://github.com/chirag127/userscript-inst
 
 [MIT](LICENSE) © 2026 chirag127
 
-<!-- okf-bundle -->
-## 🧠 Knowledge bundle (OKF)
+<!-- docs-single-source -->
+## 📚 Documentation
 
-This repository ships its documentation as an
-**Open Knowledge Format** bundle in `okf/` -
-written so both a human and an AI agent can understand the script without reading the code.
+Documentation for this repository lives in the umbrella workspace, in exactly **one** place:
 
-| File | Contents |
-|------|----------|
-| `okf/bundle.md` | Overview of the collection |
-| `okf/index.md` | Catalogue of concepts |
-| `okf/concepts/` | Shared knowledge (architecture, metadata, testing, DOM notes) |
-| `okf/scripts/` | This script's own note (where applicable) |
+| What | Where |
+|------|-------|
+| This script's note | [`docs/okf/scripts/coupon-stack-userscript.md`](../../../../../docs/okf/scripts/coupon-stack-userscript.md) |
+| All notes, catalogued | [`docs/okf/index.md`](../../../../../docs/okf/index.md) |
+| Shared knowledge | [`docs/okf/concepts/`](../../../../../docs/okf/concepts/) |
 
-Regenerate every repository's copy from the canonical bundle with `node okf/sync-okf.mjs`.
+It is **not** copied into this repository. Nothing in this workspace is duplicated: one
+document, one file. Verify with `node c:\ws\scripts\check-okf.mjs`.
